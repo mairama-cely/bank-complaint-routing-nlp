@@ -1,0 +1,9 @@
+dataset,triage_minutes_assumed,auto_routed_per_month,human_review_per_month,misrouted_auto_per_month,triage_hours_saved_per_month
+test_2026,1,638,362,34,10.6
+test_2026,2,638,362,34,21.3
+test_2026,3,638,362,34,31.9
+test_2026,5,638,362,34,53.1
+external_2025,1,645,355,34,10.7
+external_2025,2,645,355,34,21.5
+external_2025,3,645,355,34,32.2
+external_2025,5,645,355,34,53.7

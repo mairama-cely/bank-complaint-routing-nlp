@@ -1,0 +1,25 @@
+dataset,variant,service,precision,recall,f1,support
+test_2026,as_is,Comptes & Dépôts,0.7831,0.825,0.8035,3194
+test_2026,as_is,Crédit immobilier,0.9573,0.9237,0.9402,1166
+test_2026,as_is,Crédits aux particuliers,0.8596,0.8579,0.8587,2140
+test_2026,as_is,Monétique,0.8439,0.8333,0.8386,3251
+test_2026,as_is,Recouvrement,0.9107,0.9161,0.9134,4732
+test_2026,as_is,Transferts & Paiements,0.7358,0.679,0.7062,1464
+test_2026,company_masked,Comptes & Dépôts,0.7697,0.8118,0.7902,3194
+test_2026,company_masked,Crédit immobilier,0.949,0.9091,0.9286,1166
+test_2026,company_masked,Crédits aux particuliers,0.8511,0.828,0.8394,2140
+test_2026,company_masked,Monétique,0.8221,0.8216,0.8218,3251
+test_2026,company_masked,Recouvrement,0.9041,0.9169,0.9105,4732
+test_2026,company_masked,Transferts & Paiements,0.713,0.6482,0.6791,1464
+external_2025,as_is,Comptes & Dépôts,0.7885,0.8427,0.8147,47251
+external_2025,as_is,Crédit immobilier,0.9406,0.8923,0.9158,14023
+external_2025,as_is,Crédits aux particuliers,0.8475,0.8272,0.8372,30088
+external_2025,as_is,Monétique,0.8143,0.7895,0.8017,42960
+external_2025,as_is,Recouvrement,0.8875,0.9168,0.9019,77124
+external_2025,as_is,Transferts & Paiements,0.8732,0.8066,0.8385,39942
+external_2025,company_masked,Comptes & Dépôts,0.778,0.8323,0.8043,47251
+external_2025,company_masked,Crédit immobilier,0.9324,0.8794,0.9051,14023
+external_2025,company_masked,Crédits aux particuliers,0.8407,0.8068,0.8234,30088
+external_2025,company_masked,Monétique,0.8014,0.7818,0.7915,42960
+external_2025,company_masked,Recouvrement,0.8842,0.9165,0.9001,77124
+external_2025,company_masked,Transferts & Paiements,0.8641,0.7978,0.8296,39942

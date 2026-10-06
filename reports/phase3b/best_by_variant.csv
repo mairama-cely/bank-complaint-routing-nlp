@@ -1,0 +1,3 @@
+variant,model,C,class_weight,calibrated_on_val,val_macro_f1,val_accuracy,val_top2_accuracy,val_min_recall
+as_is,linear_svc,0.3,balanced,True,0.8469,0.855,0.9541,0.7616
+company_masked,linear_svc,0.3,balanced,True,0.8318,0.8425,0.9478,0.7281

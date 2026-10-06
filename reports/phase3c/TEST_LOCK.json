@@ -1,0 +1,8 @@
+{
+  "model_sha256": {
+    "as_is": "cc0dc48b247e6fc145066740840691c92ed4821b06c1b4ad7ff3db690bdc63b8",
+    "company_masked": "e59f34181070c104f04004fd5ac85545c0665f3d2322e0b4b73cdad26def5091"
+  },
+  "first_evaluation_utc": "2026-10-05T21:37:23+00:00",
+  "test_sha256": "318eb4957ed80ae85c8fe80ae927d925971236b3abac6a4eacc10c7c1a30e866"
+}

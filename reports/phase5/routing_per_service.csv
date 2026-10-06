@@ -1,0 +1,19 @@
+dataset,service,share_auto_routed_pct,precision_auto_pred_as_service,n_true
+val_2026,Comptes & Dépôts,52.29,0.9159,3194
+val_2026,Crédit immobilier,73.39,0.9756,1165
+val_2026,Crédits aux particuliers,61.36,0.9375,2140
+val_2026,Monétique,61.6,0.9576,3250
+val_2026,Recouvrement,81.8,0.9734,4732
+val_2026,Transferts & Paiements,34.22,0.8553,1464
+test_2026,Comptes & Dépôts,51.44,0.9094,3194
+test_2026,Crédit immobilier,71.27,0.9728,1166
+test_2026,Crédits aux particuliers,62.38,0.9437,2140
+test_2026,Monétique,62.38,0.9501,3251
+test_2026,Recouvrement,81.17,0.969,4732
+test_2026,Transferts & Paiements,33.61,0.8436,1464
+external_2025,Comptes & Dépôts,55.3,0.923,47251
+external_2025,Crédit immobilier,67.6,0.9739,14023
+external_2025,Crédits aux particuliers,60.74,0.939,30088
+external_2025,Monétique,59.93,0.9469,42960
+external_2025,Recouvrement,76.34,0.9522,77124
+external_2025,Transferts & Paiements,59.09,0.9637,39942

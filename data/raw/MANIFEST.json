@@ -1,0 +1,212 @@
+{
+  "1": {
+    "id": 1,
+    "filename": "CCDB_Export_1_December_2011_through_April_2018.csv",
+    "bytes": 546136740,
+    "mtime_ns": 1789346540000000000,
+    "sha256": "c5f287389af061205525b0aa492d64b546242d91661e3bcb0eba64ee34c9d87d",
+    "registered_at_utc": "2026-10-05T09:24:25+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_1_December_2011_through_April_2018.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "2": {
+    "id": 2,
+    "filename": "CCDB_Export_2_May_2018_through_April_2021.csv",
+    "bytes": 782853241,
+    "mtime_ns": 1789346853000000000,
+    "sha256": "d80c844c72a86d8b2353037dd499d9b80d8f0d50f7b131565d057fb17e03acd7",
+    "registered_at_utc": "2026-10-05T09:24:28+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_2_May_2018_through_April_2021.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "3": {
+    "id": 3,
+    "filename": "CCDB_Export_3_May_2021_through_October_2022.csv",
+    "bytes": 708907289,
+    "mtime_ns": 1789346799000000000,
+    "sha256": "8e3faea2ee94162d2053c404fbc65eeb03ee02db56ad91632241452165ac51c5",
+    "registered_at_utc": "2026-10-05T09:24:31+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_3_May_2021_through_October_2022.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "4": {
+    "id": 4,
+    "filename": "CCDB_Export_4_November_2022_through_August_2023.csv",
+    "bytes": 728813229,
+    "mtime_ns": 1789346907000000000,
+    "sha256": "d75756baae955fb7019d561c1bb59e2880a4376ffdfafcd3609aef57bc851c98",
+    "registered_at_utc": "2026-10-05T09:24:34+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_4_November_2022_through_August_2023.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "5": {
+    "id": 5,
+    "filename": "CCDB_Export_5_September_2023_through_March_2024.csv",
+    "bytes": 618266146,
+    "mtime_ns": 1789346992000000000,
+    "sha256": "7a8645f6f602762fcf8cdbf01005aaad9a5834debc9cab549ff94b6b128b1ab0",
+    "registered_at_utc": "2026-10-05T09:24:36+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_5_September_2023_through_March_2024.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "6": {
+    "id": 6,
+    "filename": "CCDB_Export_6_April_2024_through_July_2024.csv",
+    "bytes": 517112772,
+    "mtime_ns": 1789347054000000000,
+    "sha256": "b5414ec55705da56307a5058ee928322099c1303d32d77a0061b132c418f88c1",
+    "registered_at_utc": "2026-10-05T09:24:38+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_6_April_2024_through_July_2024.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "7": {
+    "id": 7,
+    "filename": "CCDB_Export_7_August_2024_through_October_2024.csv",
+    "bytes": 484574093,
+    "mtime_ns": 1789347107000000000,
+    "sha256": "3693607c2ace9c43098ab05e7541c33e2869ba776bac994eded1b30dad9889a4",
+    "registered_at_utc": "2026-10-05T09:24:41+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_7_August_2024_through_October_2024.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "8": {
+    "id": 8,
+    "filename": "CCDB_Export_8_November_2024_through_December_2024.csv",
+    "bytes": 347911485,
+    "mtime_ns": 1789347148000000000,
+    "sha256": "2ef7d563bf6283a1282bcfba2d99d72f9bfa4a4617524682de72a9b3fa47bed0",
+    "registered_at_utc": "2026-10-05T09:24:42+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_8_November_2024_through_December_2024.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "9": {
+    "id": 9,
+    "filename": "CCDB_Export_9_January_2025_through_February_2025.csv",
+    "bytes": 491908736,
+    "mtime_ns": 1789347212000000000,
+    "sha256": "b1a6a0d3b5f3a09723da8cce28a595342b586aa1629bbc8ed1e103cb295c8b06",
+    "registered_at_utc": "2026-10-05T09:24:45+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_9_January_2025_through_February_2025.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "10": {
+    "id": 10,
+    "filename": "CCDB_Export_10_March_2025_through_April_2025.csv",
+    "bytes": 452458891,
+    "mtime_ns": 1789347254000000000,
+    "sha256": "2e5ffd7b3c1da2ec8772a5af179594cc72a524bd6ec64780163dd8516bb97a3c",
+    "registered_at_utc": "2026-10-05T09:24:46+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_10_March_2025_through_April_2025.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "11": {
+    "id": 11,
+    "filename": "CCDB_Export_11_May_2025_through_June_2025.csv",
+    "bytes": 482807488,
+    "mtime_ns": 1789347358000000000,
+    "sha256": "c00319556fc7904d30516cc6bf216f7a9dbae9759ea1c3709152ed36c019aa12",
+    "registered_at_utc": "2026-10-05T09:24:48+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_11_May_2025_through_June_2025.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "12": {
+    "id": 12,
+    "filename": "CCDB_Export_12_July_2025_through_August_2025.csv",
+    "bytes": 548876081,
+    "mtime_ns": 1789347504000000000,
+    "sha256": "aca1348beaecec023ff208c161848c8582ac39e912294508f441d1a9f81c4d82",
+    "registered_at_utc": "2026-10-05T09:24:51+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_12_July_2025_through_August_2025.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "13": {
+    "id": 13,
+    "filename": "CCDB_Export_13_September_2025_through_October_2025.csv",
+    "bytes": 488115601,
+    "mtime_ns": 1789347574000000000,
+    "sha256": "acdfdbb8df320c829479a63c55f79364b3e3b3c4c9ab5878d13e25575b70b785",
+    "registered_at_utc": "2026-10-05T09:24:53+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_13_September_2025_through_October_2025.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "14": {
+    "id": 14,
+    "filename": "CCDB_Export_14_November_2025_through_December_2025.csv",
+    "bytes": 462623262,
+    "mtime_ns": 1789347631000000000,
+    "sha256": "d40ce5a19d4337ad4850e8753ac43f3549fdc793d5784899c61ad8ba6af29f28",
+    "registered_at_utc": "2026-10-05T09:24:55+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_14_November_2025_through_December_2025.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "15": {
+    "id": 15,
+    "filename": "CCDB_Export_15_January_2026_through_February_2026.csv",
+    "bytes": 366507123,
+    "mtime_ns": 1789347699000000000,
+    "sha256": "664f1cae8d3a19dfd6894e2ca760f5b3f0bb4b71e466f38235473e1ea5b29f6d",
+    "registered_at_utc": "2026-10-05T09:24:57+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_15_January_2026_through_February_2026.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "16": {
+    "id": 16,
+    "filename": "CCDB_Export_16_March_2026.csv",
+    "bytes": 219594182,
+    "mtime_ns": 1789347826000000000,
+    "sha256": "6ad3814bd03c4c47842a90e32d0f1bb7827a419846a8b04e4647b3e69df63e25",
+    "registered_at_utc": "2026-10-05T09:24:58+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_16_March_2026.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "17": {
+    "id": 17,
+    "filename": "CCDB_Export_17_April_2026.csv",
+    "bytes": 223480946,
+    "mtime_ns": 1789347858000000000,
+    "sha256": "195883c95b95343fb4dd124d433ce10d36cabf429a5671c6f0c5e2162f8f74de",
+    "registered_at_utc": "2026-10-05T09:24:59+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_17_April_2026.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "18": {
+    "id": 18,
+    "filename": "CCDB_Export_18_May_2026.csv",
+    "bytes": 219622001,
+    "mtime_ns": 1789347885000000000,
+    "sha256": "261c61151b20577fc8319904b8eba21c8e7d3a2d9390449a83b8724682b6aa76",
+    "registered_at_utc": "2026-10-05T09:25:00+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_18_May_2026.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "19": {
+    "id": 19,
+    "filename": "CCDB_Export_19_June_2026.csv",
+    "bytes": 219864163,
+    "mtime_ns": 1789347925000000000,
+    "sha256": "4adca715ede2ac1780bf72d3735b34fb7d88616f2aa9468ea41357f414180850",
+    "registered_at_utc": "2026-10-05T09:25:01+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_19_June_2026.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "20": {
+    "id": 20,
+    "filename": "CCDB_Export_20_July_2026.csv",
+    "bytes": 216250982,
+    "mtime_ns": 1789347987000000000,
+    "sha256": "beb05a0a61e1ccfe186ad1f7c6ab062bc7a089f7bda28adfe7e6c4c9ccefa57c",
+    "registered_at_utc": "2026-10-05T09:25:02+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_20_July_2026.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  },
+  "21": {
+    "id": 21,
+    "filename": "CCDB_Export_21_August_2026.csv",
+    "bytes": 177212547,
+    "mtime_ns": 1789348011000000000,
+    "sha256": "24b9fe7913c3405aebdc29f4ce23962e20071b5094b14c7a047434e2552f12d6",
+    "registered_at_utc": "2026-10-05T09:25:03+00:00",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_21_August_2026.zip",
+    "acquisition": "téléchargement manuel du zip CFPB puis extraction par l'utilisatrice ; zip non conservé"
+  }
+}

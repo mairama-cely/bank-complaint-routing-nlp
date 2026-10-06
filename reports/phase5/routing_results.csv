@@ -1,0 +1,4 @@
+dataset,n,coverage,coverage_ci95,precision_auto,precision_ci95,macro_f1_no_threshold,accuracy_human_queue_if_model_kept
+val_2026,15945,0.6405,[0.6336 ; 0.6485],0.9507,[0.9465 ; 0.9550],0.8306,0.6494
+test_2026,15947,0.6377,[0.6301 ; 0.6449],0.9468,[0.9427 ; 0.9513],0.8283,0.65
+external_2025,251388,0.6449,[0.6431 ; 0.6467],0.948,[0.9469 ; 0.9491],0.8423,0.6541

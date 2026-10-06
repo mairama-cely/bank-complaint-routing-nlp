@@ -1,0 +1,7 @@
+{
+  "rule": "calibrated_argmax",
+  "threshold": 0.79,
+  "model_sha256": "e59f34181070c104f04004fd5ac85545c0665f3d2322e0b4b73cdad26def5091",
+  "target_precision": 0.95,
+  "created_utc": "2026-10-05T21:50:26+00:00"
+}

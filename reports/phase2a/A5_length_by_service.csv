@@ -1,0 +1,7 @@
+service,n,min_words,p5,median,p95,max_words,n_lt10,n_lt20,n_only_masks
+Recouvrement,41306,5,28.0,131.0,476.0,4643,102,1170,3
+Monétique,21897,6,35.0,205.0,615.0,4950,66,387,0
+Comptes & Dépôts,21335,7,37.0,190.0,601.0,5347,23,332,3
+Crédits aux particuliers,14332,5,34.0,200.0,603.0,4997,25,269,0
+Transferts & Paiements,9807,8,39.0,186.0,571.7,4324,5,121,0
+Crédit immobilier,7772,9,58.0,247.0,860.4,4792,3,51,0

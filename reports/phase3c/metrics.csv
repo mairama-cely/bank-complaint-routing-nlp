@@ -1,0 +1,5 @@
+dataset,variant,n,macro_f1,macro_f1_ci95,accuracy,top2_accuracy
+test_2026,as_is,15947,0.8434,[0.8373 ; 0.8495],0.8519,0.9512
+test_2026,company_masked,15947,0.8283,[0.8219 ; 0.8346],0.8393,0.9435
+external_2025,as_is,251388,0.8517,[0.8503 ; 0.8532],0.8515,0.9498
+external_2025,company_masked,251388,0.8423,[0.8408 ; 0.8438],0.8436,0.9446

@@ -1,0 +1,17 @@
+# Data and models: content excluded, manifests (sha256) kept for reproducibility.
+# Patterns start with "/" so they apply to the repository root only (src/data/ and src/models/ must stay versioned).
+/data/raw/*
+!/data/raw/MANIFEST.json
+/data/interim/
+/data/processed/*
+!/data/processed/MANIFEST*.json
+/models/*
+!/models/MANIFEST_models.json
+
+*.zip
+*.parquet
+*.duckdb
+*.part
+.venv/
+__pycache__/
+.ipynb_checkpoints/

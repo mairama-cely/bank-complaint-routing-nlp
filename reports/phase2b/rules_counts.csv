@@ -1,0 +1,9 @@
+rule,n_narratives
+R1_bytes_prefix,741
+R2_literal_escapes,756
+R3_dates,56336
+R4_amounts,49182
+R5_glued_xseq_narratives,4621
+R5_xseq,92131
+R6_collapsed,61595
+R8_dropped_no_letter,11

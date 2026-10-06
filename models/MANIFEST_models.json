@@ -1,0 +1,29 @@
+{
+  "as_is": {
+    "file": "as_is_best.joblib",
+    "sha256": "cc0dc48b247e6fc145066740840691c92ed4821b06c1b4ad7ff3db690bdc63b8",
+    "model": "linear_svc",
+    "C": 0.3,
+    "class_weight": "balanced",
+    "calibrated_on_val": true,
+    "text_column": "text_clean",
+    "val_macro_f1": 0.8469
+  },
+  "company_masked": {
+    "file": "company_masked_best.joblib",
+    "sha256": "e59f34181070c104f04004fd5ac85545c0665f3d2322e0b4b73cdad26def5091",
+    "model": "linear_svc",
+    "C": 0.3,
+    "class_weight": "balanced",
+    "calibrated_on_val": true,
+    "text_column": "text_company_masked",
+    "val_macro_f1": 0.8318
+  },
+  "_created_utc": "2026-10-05T20:45:36+00:00",
+  "_sklearn": "1.6.1",
+  "_data_sha256": {
+    "train": "4a0ef4b631b04e5c3953b021b208cf0e2b258b2b47b4a33ed07201b812249c74",
+    "val": "2ba480765aa54597111b6d883de6c911aec1e04d3e2e4057a603fef779c6be42",
+    "company_masked": "afd4cf854b07acb2740db342ac64bca4a3d210dde84f11575c407149277f96a5"
+  }
+}

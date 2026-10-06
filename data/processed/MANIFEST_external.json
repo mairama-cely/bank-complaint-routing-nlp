@@ -1,0 +1,17 @@
+{
+  "file": "external_2025.parquet",
+  "rows": 251388,
+  "sha256": "df99096f9e7d22cbc5de667aaa021546903d3555c4f6af216c571a944f087d59",
+  "label": "2025",
+  "exports": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "_created_utc": "2026-10-05T21:22:57+00:00",
+  "_lexicon_sha256": "d976e28a2a590c3aecb1cbc7a8328353206ced2bfc388e4d5224bea5b78ff594",
+  "_source_2026_sha256": "b304b198de99768bd9bec3317f79dd53e3b430dd46e2f18903fc6e0960b95efc"
+}

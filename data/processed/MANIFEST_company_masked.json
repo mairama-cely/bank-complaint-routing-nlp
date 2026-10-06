@@ -1,0 +1,35 @@
+{
+  "file": "company_masked.parquet",
+  "rows": 106307,
+  "sha256": "afd4cf854b07acb2740db342ac64bca4a3d210dde84f11575c407149277f96a5",
+  "_created_utc": "2026-10-05T19:24:51+00:00",
+  "_source_sha256": "b304b198de99768bd9bec3317f79dd53e3b430dd46e2f18903fc6e0960b95efc",
+  "_config": {
+    "token": "[COMPANY]",
+    "lexicon_source": "train",
+    "min_company_complaints": 20,
+    "single_token_min_len": 4,
+    "single_token_min_docs": 20,
+    "single_token_min_concentration": 0.5,
+    "single_token_max_companies": 3,
+    "manual_aliases": "none",
+    "legal_suffixes": [
+      "inc",
+      "llc",
+      "corp",
+      "corporation",
+      "co",
+      "company",
+      "na",
+      "ltd",
+      "lp",
+      "plc",
+      "holdings",
+      "holding",
+      "group",
+      "the",
+      "dba"
+    ]
+  },
+  "_n_patterns": 490
+}

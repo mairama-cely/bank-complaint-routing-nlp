@@ -1,0 +1,19 @@
+token,service,pct_texts,mean_per_text
+[DATE],Comptes & Dépôts,58.41,1.73
+[DATE],Crédit immobilier,67.01,3.32
+[DATE],Crédits aux particuliers,55.27,1.97
+[DATE],Monétique,58.88,2.02
+[DATE],Recouvrement,38.15,1.0
+[DATE],Transferts & Paiements,59.52,1.65
+[AMOUNT],Comptes & Dépôts,54.15,1.58
+[AMOUNT],Crédit immobilier,44.83,1.83
+[AMOUNT],Crédits aux particuliers,42.16,1.42
+[AMOUNT],Monétique,54.47,1.77
+[AMOUNT],Recouvrement,33.46,0.74
+[AMOUNT],Transferts & Paiements,58.44,1.6
+[REDACTED],Comptes & Dépôts,83.21,5.78
+[REDACTED],Crédit immobilier,87.72,8.53
+[REDACTED],Crédits aux particuliers,82.68,6.23
+[REDACTED],Monétique,85.77,6.49
+[REDACTED],Recouvrement,78.29,4.85
+[REDACTED],Transferts & Paiements,85.27,6.67

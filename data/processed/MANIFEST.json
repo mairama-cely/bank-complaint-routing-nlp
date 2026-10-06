@@ -1,0 +1,46 @@
+{
+  "all": {
+    "file": "complaints_clean.parquet",
+    "rows": 106307,
+    "sha256": "b304b198de99768bd9bec3317f79dd53e3b430dd46e2f18903fc6e0960b95efc"
+  },
+  "train": {
+    "file": "train.parquet",
+    "rows": 74415,
+    "sha256": "4a0ef4b631b04e5c3953b021b208cf0e2b258b2b47b4a33ed07201b812249c74"
+  },
+  "val": {
+    "file": "val.parquet",
+    "rows": 15945,
+    "sha256": "2ba480765aa54597111b6d883de6c911aec1e04d3e2e4057a603fef779c6be42"
+  },
+  "test": {
+    "file": "test.parquet",
+    "rows": 15947,
+    "sha256": "318eb4957ed80ae85c8fe80ae927d925971236b3abac6a4eacc10c7c1a30e866"
+  },
+  "_created_utc": "2026-10-05T13:03:05+00:00",
+  "_config": {
+    "split": {
+      "train": 0.7,
+      "val": 0.15,
+      "test": 0.15,
+      "stratify_by": "service",
+      "seed": 42
+    },
+    "dedup_rule": {
+      "conflicting_texts": "drop_all",
+      "conflict_level": "service",
+      "other_duplicates": "keep_one",
+      "keep_one_order": [
+        "date_received",
+        "complaint_id"
+      ]
+    },
+    "tokens": {
+      "date": "[DATE]",
+      "generic": "[REDACTED]",
+      "amount": "[AMOUNT]"
+    }
+  }
+}

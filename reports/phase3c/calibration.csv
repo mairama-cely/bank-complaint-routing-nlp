@@ -1,0 +1,5 @@
+dataset,variant,ece,brier
+test_2026,as_is,0.0332,0.2256
+test_2026,company_masked,0.0338,0.2414
+external_2025,as_is,0.0359,0.225
+external_2025,company_masked,0.0381,0.2358

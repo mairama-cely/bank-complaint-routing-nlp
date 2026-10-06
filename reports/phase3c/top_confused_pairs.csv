@@ -1,0 +1,7 @@
+service,pred,n_errors,share_of_true_service_pct
+Transferts & Paiements,Comptes & Dépôts,391,26.71
+Comptes & Dépôts,Transferts & Paiements,283,8.86
+Monétique,Comptes & Dépôts,256,7.87
+Comptes & Dépôts,Monétique,234,7.33
+Monétique,Recouvrement,194,5.97
+Crédits aux particuliers,Recouvrement,187,8.74

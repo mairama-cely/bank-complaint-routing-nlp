@@ -1,0 +1,139 @@
+# Phase 1 configuration — bank-complaint-routing-nlp
+# Source verified on 2026-09-26: CFPB FOIA reading room, narratives archive (complaints received 2011-12-01 to 2026-08-14).
+project: bank-complaint-routing-nlp
+# Acquisition: the 21 CSV files were downloaded manually and extracted by the user into data/raw/
+# (original zip archives not kept). 'file' = original zip name on the CFPB server, 'csv' = local file.
+phase: 1
+source_page: https://www.consumerfinance.gov/foia-requests/foia-electronic-reading-room/cfpb-consumer-complaint-database-narratives-archive/
+field_reference: https://cfpb.github.io/api/ccdb/fields.html
+
+exports:
+  - {id: 1, period: "December 2011 through April 2018", file: CCDB_Export_1_December_2011_through_April_2018.zip, csv: CCDB_Export_1_December_2011_through_April_2018.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_1_December_2011_through_April_2018.zip"}
+  - {id: 2, period: "May 2018 through April 2021", file: CCDB_Export_2_May_2018_through_April_2021.zip, csv: CCDB_Export_2_May_2018_through_April_2021.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_2_May_2018_through_April_2021.zip"}
+  - {id: 3, period: "May 2021 through October 2022", file: CCDB_Export_3_May_2021_through_October_2022.zip, csv: CCDB_Export_3_May_2021_through_October_2022.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_3_May_2021_through_October_2022.zip"}
+  - {id: 4, period: "November 2022 through August 2023", file: CCDB_Export_4_November_2022_through_August_2023.zip, csv: CCDB_Export_4_November_2022_through_August_2023.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_4_November_2022_through_August_2023.zip"}
+  - {id: 5, period: "September 2023 through March 2024", file: CCDB_Export_5_September_2023_through_March_2024.zip, csv: CCDB_Export_5_September_2023_through_March_2024.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_5_September_2023_through_March_2024.zip"}
+  - {id: 6, period: "April 2024 through July 2024", file: CCDB_Export_6_April_2024_through_July_2024.zip, csv: CCDB_Export_6_April_2024_through_July_2024.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_6_April_2024_through_July_2024.zip"}
+  - {id: 7, period: "August 2024 through October 2024", file: CCDB_Export_7_August_2024_through_October_2024.zip, csv: CCDB_Export_7_August_2024_through_October_2024.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_7_August_2024_through_October_2024.zip"}
+  - {id: 8, period: "November 2024 through December 2024", file: CCDB_Export_8_November_2024_through_December_2024.zip, csv: CCDB_Export_8_November_2024_through_December_2024.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_8_November_2024_through_December_2024.zip"}
+  - {id: 9, period: "January 2025 through February 2025", file: CCDB_Export_9_January_2025_through_February_2025.zip, csv: CCDB_Export_9_January_2025_through_February_2025.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_9_January_2025_through_February_2025.zip"}
+  - {id: 10, period: "March 2025 through April 2025", file: CCDB_Export_10_March_2025_through_April_2025.zip, csv: CCDB_Export_10_March_2025_through_April_2025.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_10_March_2025_through_April_2025.zip"}
+  - {id: 11, period: "May 2025 through June 2025", file: CCDB_Export_11_May_2025_through_June_2025.zip, csv: CCDB_Export_11_May_2025_through_June_2025.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_11_May_2025_through_June_2025.zip"}
+  - {id: 12, period: "July 2025 through August 2025", file: CCDB_Export_12_July_2025_through_August_2025.zip, csv: CCDB_Export_12_July_2025_through_August_2025.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_12_July_2025_through_August_2025.zip"}
+  - {id: 13, period: "September 2025 through October 2025", file: CCDB_Export_13_September_2025_through_October_2025.zip, csv: CCDB_Export_13_September_2025_through_October_2025.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_13_September_2025_through_October_2025.zip"}
+  - {id: 14, period: "November 2025 through December 2025", file: CCDB_Export_14_November_2025_through_December_2025.zip, csv: CCDB_Export_14_November_2025_through_December_2025.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_14_November_2025_through_December_2025.zip"}
+  - {id: 15, period: "January 2026 through February 2026", file: CCDB_Export_15_January_2026_through_February_2026.zip, csv: CCDB_Export_15_January_2026_through_February_2026.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_15_January_2026_through_February_2026.zip"}
+  - {id: 16, period: "March 2026", file: CCDB_Export_16_March_2026.zip, csv: CCDB_Export_16_March_2026.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_16_March_2026.zip"}
+  - {id: 17, period: "April 2026", file: CCDB_Export_17_April_2026.zip, csv: CCDB_Export_17_April_2026.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_17_April_2026.zip"}
+  - {id: 18, period: "May 2026", file: CCDB_Export_18_May_2026.zip, csv: CCDB_Export_18_May_2026.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_18_May_2026.zip"}
+  - {id: 19, period: "June 2026", file: CCDB_Export_19_June_2026.zip, csv: CCDB_Export_19_June_2026.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_19_June_2026.zip"}
+  - {id: 20, period: "July 2026", file: CCDB_Export_20_July_2026.zip, csv: CCDB_Export_20_July_2026.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_20_July_2026.zip"}
+  - {id: 21, period: "August 2026", file: CCDB_Export_21_August_2026.zip, csv: CCDB_Export_21_August_2026.csv, url: "https://files.consumerfinance.gov/f/documents/CCDB_Export_21_August_2026.zip"}
+
+selected_exports: [15, 16, 17, 18, 19, 20, 21]
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  reports: reports
+  tables: reports/tables
+  figures: reports/figures
+  docs: docs
+
+probe:
+  timeout_s: 30
+  max_retries: 3
+
+min_narratives_per_class: 2000
+
+# Time-window rule (Phase 1, decided 2026-10-05): months whose narrative volume is below this ratio of the
+# median monthly volume are excluded from the taxonomy-stability comparison and from the window counts.
+window_min_volume_ratio: 0.10
+
+# Phase 1 decisions validated by the user on 2026-10-05 (consumed by Phase 2).
+analysis_window:
+  start: "2026-01"
+  end: "2026-07"
+dedup_rule:
+  conflicting_texts: drop_all   # identical narrative with >1 distinct label at conflict_level: drop every row
+  conflict_level: service       # changed from product on 2026-10-05 (2a audit: 20 texts / 106 rows at service level vs 22 / 111 at product level)
+  other_duplicates: keep_one    # identical narrative, single label at conflict_level: keep one row
+  keep_one_order: [date_received, complaint_id]   # deterministic choice: earliest date received, then lowest id
+
+# Phase 2 decisions (user, 2026-10-05). Final regexes are fixed in 2b from the 2a audit.
+phase2:
+  mask_strategy: replace_with_tokens
+  mask_tokens: {date: "[DATE]", generic: "[REDACTED]"}   # not "[MASK]": reserved special token in BERT/DistilBERT
+  short_text_policy: keep_all                            # measured in 2a, never deleted for length alone
+  amount_token: "[AMOUNT]"                               # {$...} amounts and {>= $9,999,999} caps (2a: A3)
+  collapse_consecutive_tokens: true                      # e.g. "XXXX XXXX XXXX" -> one [REDACTED]
+  unmasked_dates_to_token: true                          # 64 fully numeric dates also become [DATE] (2a: A1)
+  drop_only_masks: true                                  # 6 narratives with no word outside masks (2a: A5); not a length rule
+  split: {train: 0.70, val: 0.15, test: 0.15, stratify_by: service, seed: 42}
+  dedup_on: cleaned_text                                 # decided 2026-10-05: near-duplicates differing only by masked values
+  language_check:                                        # measurement only (no filtering), heuristic on stopword ratios
+    min_words: 10
+    max_english_stopword_ratio: 0.15                     # below this ratio -> flagged "non_english_suspect"
+
+# Phase 3 decisions (user, 2026-10-05).
+phase3:
+  variants: [as_is, company_masked]          # compare raw company names vs [COMPANY] masking
+  models: [logreg, linear_svc]               # tuned on val (macro-F1); test used once; LinearSVC calibrated if selected
+  company_mask:
+    token: "[COMPANY]"
+    lexicon_source: train                    # built from the train split only, applied unchanged to val/test
+    min_company_complaints: 20               # companies with >= 20 train complaints
+    single_token_min_len: 4
+    single_token_min_docs: 20
+    single_token_min_concentration: 0.50     # share of train docs containing the token whose Company contains it
+    single_token_max_companies: 3            # decided 2026-10-05: reject words shared by > 3 company names (union, national...)
+    manual_aliases: none                     # decided 2026-10-05: no hand-written brand list (citi, cash app... stay visible)
+    legal_suffixes: [inc, llc, corp, corporation, co, company, na, ltd, lp, plc, holdings, holding, group, the, dba]
+  tfidf:                                     # fitted on train only
+    ngram_range: [1, 2]
+    min_df: 5
+    max_df: 0.9
+    max_features: 300000
+    sublinear_tf: true
+    token_pattern: '(?u)\[\w+\]|\b\w\w+\b'   # keeps [date], [amount], [redacted], [company] as tokens
+  grid:                                      # selection on val by macro-F1
+    logreg_C: [1.0, 4.0, 16.0]
+    linear_svc_C: [0.1, 0.3, 1.0]
+    class_weight: [null, balanced]
+  random_state: 42
+  evaluation:                               # Phase 3c-ii (test used once; lock in reports/phase3c/TEST_LOCK.json)
+    reference_variant: company_masked        # decided 2026-10-05
+    bootstrap_resamples: 1000
+    calibration_bins: 15
+    high_confidence: 0.90                    # errors above this confidence = label-noise candidates
+    examples_per_pair: 3
+  external_test:                             # decided 2026-10-05 (option B): temporal robustness, never used for training
+    label: "2025"
+    exports: [9, 10, 11, 12, 13, 14]         # complaints received January - December 2025
+    unknown_products: exclude_and_report     # product labels absent from the frozen mapping
+
+# Phase 5 — routing threshold (protocol fixed before any computation, 2026-10-05)
+phase5:
+  reference_variant: company_masked
+  decision_rules: [calibrated_argmax, raw_svc_argmax]   # A = model evaluated in 3c ; B = raw LinearSVC class + calibrated confidence
+  selection: max_val_coverage_at_target_precision       # tie -> calibrated_argmax
+  target_precision: 0.95
+  sensitivity_precisions: [0.90, 0.97]
+  threshold_grid: {start: 0.30, stop: 0.995, step: 0.005}
+  volume_per_month: 1000                                # illustrative volume, not an Afriland figure
+  triage_minutes: [1, 2, 3, 5]                          # assumption (cadrage §4), not a measurement
+  bootstrap_resamples: 1000
+
+# CSV reading (decided 2026-10-05 after 5 mis-split rows in exports 9 and 13, next to multi-line quoted narratives;
+# suspected cause: DuckDB's default parallel/auto-detected reading, NOT reproduced on synthetic data). Sequential,
+# explicit dialect. Used by verify_csv_parsing.py and build_external.py.
+csv_strict_options: "header=true, all_varchar=true, parallel=false, quote='\"', escape='\"', max_line_size=20000000"
+
+# Target services (cadrage §3). Product -> service mapping is produced as a DRAFT in config/label_mapping.yaml.
+target_services:
+  - "Comptes & Dépôts"
+  - "Monétique"
+  - "Transferts & Paiements"
+  - "Crédits aux particuliers"
+  - "Crédit immobilier"
+  - "Recouvrement"

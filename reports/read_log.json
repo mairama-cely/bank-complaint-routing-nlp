@@ -1,0 +1,44 @@
+[
+  {
+    "export_id": 15,
+    "file": "CCDB_Export_15_January_2026_through_February_2026.csv",
+    "read_options": "auto",
+    "n_columns": 16
+  },
+  {
+    "export_id": 16,
+    "file": "CCDB_Export_16_March_2026.csv",
+    "read_options": "auto",
+    "n_columns": 16
+  },
+  {
+    "export_id": 17,
+    "file": "CCDB_Export_17_April_2026.csv",
+    "read_options": "auto",
+    "n_columns": 16
+  },
+  {
+    "export_id": 18,
+    "file": "CCDB_Export_18_May_2026.csv",
+    "read_options": "auto",
+    "n_columns": 16
+  },
+  {
+    "export_id": 19,
+    "file": "CCDB_Export_19_June_2026.csv",
+    "read_options": "auto",
+    "n_columns": 16
+  },
+  {
+    "export_id": 20,
+    "file": "CCDB_Export_20_July_2026.csv",
+    "read_options": "auto",
+    "n_columns": 16
+  },
+  {
+    "export_id": 21,
+    "file": "CCDB_Export_21_August_2026.csv",
+    "read_options": "auto",
+    "n_columns": 16
+  }
+]

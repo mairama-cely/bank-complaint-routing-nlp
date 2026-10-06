@@ -1,0 +1,12 @@
+product,n_narratives,status
+Credit reporting or other personal consumer reports,912756,excluded_frozen
+Debt collection,100609,mapped
+"Money transfer, virtual currency, or money service",64863,mapped
+Checking or savings account,51448,mapped
+Credit card,41516,mapped
+Mortgage,14031,mapped
+Vehicle loan or lease,11686,mapped
+Student loan,10869,mapped
+"Payday loan, title loan, personal loan, or advance loan",7805,mapped
+Prepaid card,3822,mapped
+Debt or credit management,2645,mapped

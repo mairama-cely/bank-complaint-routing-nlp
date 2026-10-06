@@ -1,0 +1,67 @@
+# BROUILLON — status: draft. Ne pas utiliser avant validation.
+status: draft
+note: Brouillon généré automatiquement à partir des libellés réels (Q4). À valider
+  et figer par l'utilisatrice.
+counts_scope: tous les narratifs des exports sélectionnés, sans restriction à la fenêtre
+  recommandée
+min_narratives_per_class: 2000
+services:
+  Comptes & Dépôts:
+    n_narratives: 21335
+    products:
+    - label: Checking or savings account
+      n_narratives: 21335
+      status: draft
+    below_threshold: false
+  Monétique:
+    n_narratives: 21897
+    products:
+    - label: Credit card
+      n_narratives: 20435
+      status: draft
+    - label: Prepaid card
+      n_narratives: 1462
+      status: draft
+    below_threshold: false
+  Transferts & Paiements:
+    n_narratives: 9807
+    products:
+    - label: Money transfer, virtual currency, or money service
+      n_narratives: 9807
+      status: draft
+    below_threshold: false
+  Crédits aux particuliers:
+    n_narratives: 14332
+    products:
+    - label: Vehicle loan or lease
+      n_narratives: 5921
+      status: draft
+    - label: Payday loan, title loan, personal loan, or advance loan
+      n_narratives: 4356
+      status: draft
+    - label: Student loan
+      n_narratives: 4055
+      status: draft
+    below_threshold: false
+  Crédit immobilier:
+    n_narratives: 7772
+    products:
+    - label: Mortgage
+      n_narratives: 7772
+      status: draft
+    below_threshold: false
+  Recouvrement:
+    n_narratives: 41306
+    products:
+    - label: Debt collection
+      n_narratives: 40205
+      status: draft
+    - label: Debt or credit management
+      n_narratives: 1101
+      status: draft
+    below_threshold: false
+excluded:
+- label: Credit reporting or other personal consumer reports
+  n_narratives: 4945
+  status: draft
+  reason: 'Bureaux de crédit US : pas d''équivalent direct (cadrage §2)'

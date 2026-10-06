@@ -1,0 +1,32 @@
+# FIGÉ — correspondance validée par l'utilisatrice le 2026-10-05 (fin de Phase 1).
+# Ne pas modifier sans nouvelle décision documentée. profile_report.py n'écrase jamais ce fichier
+# (son brouillon éventuel va dans config/label_mapping.draft.yaml).
+status: frozen
+frozen_on: '2026-10-05'
+source: reports/phase1_profile.md — libellés réels (Q4), exports 15 à 21, fenêtre 2026-01 → 2026-07
+decisions:
+- Student loan conservé dans Crédits aux particuliers (décision utilisatrice du 2026-10-05).
+- Debt or credit management rattaché à Recouvrement (décision utilisatrice du 2026-10-05).
+- Credit reporting or other personal consumer reports exclu (cadrage §2).
+product_to_service:
+  Checking or savings account: Comptes & Dépôts
+  Credit card: Monétique
+  Prepaid card: Monétique
+  Money transfer, virtual currency, or money service: Transferts & Paiements
+  Vehicle loan or lease: Crédits aux particuliers
+  Payday loan, title loan, personal loan, or advance loan: Crédits aux particuliers
+  Student loan: Crédits aux particuliers
+  Mortgage: Crédit immobilier
+  Debt collection: Recouvrement
+  Debt or credit management: Recouvrement
+excluded:
+- label: Credit reporting or other personal consumer reports
+  reason: "Bureaux de crédit US : pas d'équivalent direct (cadrage §2)"
+counts_scope: narratifs des exports 15 à 21 ; pour les 6 services, identiques aux effectifs de la fenêtre 2026-01 → 2026-07
+service_counts:
+  Comptes & Dépôts: 21335
+  Monétique: 21897
+  Transferts & Paiements: 9807
+  Crédits aux particuliers: 14332
+  Crédit immobilier: 7772
+  Recouvrement: 41306
